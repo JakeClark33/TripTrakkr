@@ -1,17 +1,14 @@
 # Location information finder
 
 ## API
-
-- Api for currency conversion
-  - [GeoPlugin](https://www.geoplugin.com/webservices/javascript)
+-
 - Api for location images
   - [OpenTriMap](https://opentripmap.io/docs#/)
 - Api for timezones
   - [Google Maps](https://developers.google.com/maps/documentation/timezone/get-started)
   - [WorldTime](http://worldtimeapi.org/)
-- Api for weather
-  - [MetaWeather](https://www.metaweather.com/api/)
-    - MetaWeather provides time/time zone and weather w/ icons
+
+
 
 ## GitHub
 
