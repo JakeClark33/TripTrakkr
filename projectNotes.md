@@ -19,7 +19,7 @@
 - Utilize git stash/pop when merging to ensure you have the most current versions
 
 ## Design
-
+- Bulma Documentation
 - Search screen
   - tbd
 - Display image(s) of location, and information\*
