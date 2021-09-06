@@ -1,19 +1,15 @@
 
-.left {
-        display: flex;
-        justify-content: left;
-        align-items: left;
-      }
-
-.center, .top, .right, .bottom, .left {
+.center, .center-column, .top, .right, .bottom, .left {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: justify;
 }
 
 .top {align-items: flex-start;}
 .right {justify-content: flex-end;}
 .bottom {justify-content: flex-start;}
+.left {justify-content: flex-start;}
 
       .hero {
           background: url(images/original.jpg) center / cover;
@@ -22,4 +18,5 @@
       @media  (max-width:1024px) { .hero {background: black url(images/wisconsin-2) center / cover;}
           
       }
-      @media (max-width:768px) { .hero {background: black url(images/wisconsin-3) center / cover;}}
+      @media (max-width:768px) { .hero {background: black url(images/wisconsin-3) center / cover;}
+    }
