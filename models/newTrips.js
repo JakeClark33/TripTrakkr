@@ -1,5 +1,5 @@
-const { Model, DataTypes } = require('sequelize');
-const sequelize = require('./connection/connections');
+const { Model, DataTypes, Sequelize } = require('sequelize');
+const sequelize = require('../connection/connections');
 
 class NewTrips extends Model {}
 
@@ -15,7 +15,15 @@ NewTrips.init(
             allowNull: false,
             model: 'comment',
             key: 'id'
-        }
-})
+        },
+
+        
+            
+        
+},
+{
+    sequelize
+}
+)
 
 module.exports = NewTrips;
