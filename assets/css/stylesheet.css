@@ -1,0 +1,47 @@
+
+
+.bg-img { 
+    background-image: url(images/original.jpg) ;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
+}
+
+.center, .center-column, .top, .right, .bottom, .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: justify;
+}
+
+.top {align-items: flex-start;}
+.right {justify-content: flex-end;}
+.bottom {justify-content: flex-start;}
+.left {justify-content: flex-start;}
+
+.popup.active{
+    top:50%;
+    opacity:1;
+    transform:translate(-50%,-50%) scale(1);
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 200ms ease-in-out 0ms;
+}
+
+.popup .close-btn {
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:15px;
+    height:15px;
+}
+
+.navbar-item img {
+    max-height: 175rem;
+}
+
+.navbar-item {
+    font-size: 25px;
+}

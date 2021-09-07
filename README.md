@@ -20,3 +20,7 @@ Limit the scope to just wisconsin. And Illinois.
 We can have a favorites tab - for places they have been or want to visit
 
 Tab describing future trips
+
+
+Bulma docs and notes: 
+
