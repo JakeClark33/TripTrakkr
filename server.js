@@ -5,15 +5,15 @@ const sequelize = require('./connection/connections');
 
 
 
-const app = require('express')();
+const express = require('express');
+const app = express();
 const PORT = process.env.PORT || 3001;
 
+app.use('/assets', express.static('assets'));
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-// app.set('routes', './controllers');
 
-// app.Router().use('/', routes);
 app.use('/', routes);
 
 sequelize.sync({ force: false }).then(() => {
