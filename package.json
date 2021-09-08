@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JakeClark33/TripTrakkr#readme",
   "dependencies": {
+    "bulma-carousel": "^4.0.24",
     "inquirer": "^8.1.2"
   }
 }
