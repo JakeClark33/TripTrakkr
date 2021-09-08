@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>About Us</title>
-    </head>
 
-    <body>
-        <!-- navigation -->
-        <header>
-            <h1>
-                <img src="assets/images/Trip Tracker Placeholder.png"/>
-            </h1>
-        </header>
-        Fun Facts Landmarks About Us Sign-In
+<!--Bulma base template and css library for references-->
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <script defer scr="https://usefontawesome.com/realeases/v5.0.7/js/all.js"></script>
+    <title>TripTrakkr</title>
 
-        
-    </body>
-</html>
+  </head>
+  <body>
+    
+
+        <nav class="navbar has-shadow is-white is-mobile is-marginless">
+          <!-- Bluma Logo / Brand Navbar formatting for CSS -->
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <img src="assets/images/Trip Tracker Placeholder.png" alt="site logo" style="max-width: 280px" class="py-5 px-5">
+              </a>
+
+              <!--Navbar-burger allows for dropdown menu when mobile view-->
+              <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+
+            <div class="navbar-menu" id="nav-links">
+              <div class="navbar-end">
+                <a class="navbar-item" href="#" style="font-weight:bold">Fun Facts</a>
+                <a class="navbar-item" href="#" style="font-weight:bold">Landmarks</a>
+                <a class="navbar-item" href="./aboutus.html" target="_blank" style="font-weight:bold">About Us</a>
+                <a class="navbar-item" id="signin" href="#" style="font-weight:bold">Sign-In</a>
+            </div>
+          </nav>

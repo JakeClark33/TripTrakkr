@@ -50,3 +50,11 @@
     background-color: #6af344;
     color: #020900;
 }
+
+.paragraph-1 {
+    margin: 30px 0;
+}
+
+.is-size-1 title {
+    margin: 10px -30px;
+}
