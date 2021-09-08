@@ -10,4 +10,6 @@ CREATE TABLE landmarks (
 
 CREATE TABLE favorites (
     id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    landmark_name VARCHAR(50),
+    is_favorite BOOLEAN NOT NULL
 );
