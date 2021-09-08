@@ -17,12 +17,13 @@ const modalClose = document.querySelector('.modal-close');
 
 signinlink.addEventListener('click', () => { 
     modal.classlist.add('is-active');
-    Box.classList.remove('is-active');
-
-})
+ })
 
 signinlink.addEventListener('click',() => {
     modal.classList.remove('is-active');
-    box.classList.toggle('is-active');
+    box.classList.add('is-hidden');
 })
 
+modalClose.addEventListener('click', ()=> {
+    modal.classList.remove('is-active');
+});
