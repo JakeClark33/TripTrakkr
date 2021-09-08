@@ -1,4 +1,4 @@
-DROP DATABASE IF EXISTS plan_trip;
+DROP DATABASE IF EXISTS triptrakkr;
 
-CREATE DATABASE plan_trip;
-USE plan_trip;
+CREATE DATABASE triptrakkr;
+USE triptrakkr;
