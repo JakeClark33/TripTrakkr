@@ -45,3 +45,8 @@
 .navbar-item {
     font-size: 25px;
 }
+
+.button.is-info {
+    background-color: #6af344;
+    color: #020900;
+}
