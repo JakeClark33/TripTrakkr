@@ -38,3 +38,10 @@
     height:15px;
 }
 
+.navbar-item img {
+    max-height: 175rem;
+}
+
+.navbar-item {
+    font-size: 25px;
+}

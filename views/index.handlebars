@@ -1,0 +1,115 @@
+{{!-- <!DOCTYPE html>
+<html lang="en"> --}}
+<!-- <! -- make index.handlebars and move below homepage.handlebars>  --> 
+<!--Bulma base template and css library for references-->
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+    <script defer scr="https://usefontawesome.com/realeases/v5.0.7/js/all.js"></script>
+    <title>TripTrakkr</title>
+
+  </head>
+  <body>
+    
+
+        <nav class="navbar has-shadow is-white is-mobile is-marginless">
+          <!-- Bluma Logo / Brand Navbar formatting for CSS -->
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="#">
+                <img src="assets/images/Trip Tracker Placeholder.png" alt="site logo" style="max-width: 280px" class="py-5 px-5">
+              </a>
+
+              <!--Navbar-burger allows for dropdown menu when mobile view-->
+              <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </div>
+
+            <div class="navbar-menu" id="nav-links">
+              <div class="navbar-end">
+                <a class="navbar-item" href="#" style="font-weight:bold">Fun Facts</a>
+                <a class="navbar-item" href="#" style="font-weight:bold">Landmarks</a>
+                <a class="navbar-item" href="#" style="font-weight:bold">About Us</a>
+                <a class="navbar-item" href="#signin" style="font-weight:bold">Sign-in</a>
+            </div>
+          </nav>
+
+            <!--main page setup using columns in Bulma-->
+
+          <section class="section">
+            <div class="container has-shadow">
+              <div class="columns">
+                <div class="column is-10">
+                  <h1 class="is-size-1 title">Choose Your Destination</h1>
+                  <div class="field is-grouped">
+                    <p class="control is-expanded">
+                      <input class="input" type="text" placeholder="Type your Desired Landmark">
+                    </p>
+                    <p class="control">
+                      <a class="button is-info">
+                        Search
+                      </a>
+                    </p>
+                  </div>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ducimus modi soluta possimus quo voluptates, reiciendis reprehenderit perferendis voluptatibus ullam maiores amet, consectetur quisquam harum, deleniti alias eius laudantium exercitationem.</p>
+                </div>
+                  <div class="column is -8 is-vertical">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ducimus modi soluta possimus quo voluptates, reiciendis reprehenderit perferendis voluptatibus ullam maiores amet, consectetur quisquam harum, deleniti alias eius laudantium exercitationem.</p>
+                 </div>
+                </div>
+              </div>
+            </div>
+          <section class="section">
+             <div class="container has-shadow">
+               <div class="columns">
+                 <div class="column is-10">
+                  <div class="column">
+                    <h1 class="is-size-1 title">Places To See</h1>
+                      <div class='carousel carousel-animated carousel-animate-slide'>
+                        <div class='carousel-container'>
+                          <div class='carousel-item has-background is-active'>
+                            <img class="is-background" src="assets/images/wisconsin-2.jpg" alt="" width="920" height="310" />
+                          </div>
+         
+        <!--Modal for login-->
+
+            <div class="modal">
+              <div class="modal-background"></div>
+              <div class="modal-content has-background-black py-5 px5">
+                 <h3 class="title mb-6"></h3>
+            </div>
+              <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+  
+            <form class="box is-hidden">
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="e.g. alex@example.com">
+                </div>
+              </div>
+            
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" placeholder="********">
+                </div>
+              </div>
+            
+              <button class="button is-primary" id="signin2">Sign in</button>
+            </form>
+  
+            </div>             
+
+          <script src="index.js"></script>
+
+        </body>
