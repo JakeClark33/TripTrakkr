@@ -39,7 +39,7 @@
                 <a class="navbar-item" href="#" style="font-weight:bold">Fun Facts</a>
                 <a class="navbar-item" href="#" style="font-weight:bold">Landmarks</a>
                 <a class="navbar-item" href="#" style="font-weight:bold">About Us</a>
-                <a class="navbar-item" id="signin" href="#" style="font-weight:bold">Sign-In</a>
+                <a class="navbar-item" href="#signin" style="font-weight:bold">Sign-in</a>
             </div>
           </nav>
 
@@ -80,34 +80,33 @@
                             <img class="is-background" src="assets/images/wisconsin-2.jpg" alt="" width="920" height="310" />
                           </div>
          
-        <!--Modal for login / login allso pop-up-->
+        <!--Modal for login-->
 
             <div class="modal">
               <div class="modal-background"></div>
               <div class="modal-content has-background-black py-5 px5">
                  <h3 class="title mb-6"></h3>
-                 <form class="box">
-                  <div class="field">
-                    <label class="label">Email</label>
-                    <div class="control">
-                      <input class="input" type="email" placeholder="e.g. alex@example.com">
-                    </div>
-                  </div>
-                
-                  <div class="field">
-                    <label class="label">Password</label>
-                    <div class="control">
-                      <input class="input" type="password" placeholder="********">
-                    </div>
-                  </div>
-                
-                  <button class="button is-primary" id="submit">Submit</button>
-                </form>
             </div>
               <button class="modal-close is-large" aria-label="close"></button>
             </div>
   
+            <form class="box is-hidden">
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="email" placeholder="e.g. alex@example.com">
+                </div>
+              </div>
             
+              <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                  <input class="input" type="password" placeholder="********">
+                </div>
+              </div>
+            
+              <button class="button is-primary" id="signin2">Sign in</button>
+            </form>
   
             </div>             
 
