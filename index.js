@@ -27,3 +27,11 @@ signinlink.addEventListener('click',() => {
 modalClose.addEventListener('click', ()=> {
     modal.classList.remove('is-active');
 });
+
+// Carousel Code
+
+bulmaCarousel.attach('#post_images', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    loop: true,
+  });
