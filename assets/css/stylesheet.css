@@ -49,3 +49,6 @@
     font-size: 25px;
 }
 
+.block:not(:last-child) {
+    margin-bottom: 10rem;
+  }
