@@ -9,8 +9,9 @@ const handlebars = require('express-handlebars');
 const hbs = handlebars.create({});
 app.set('view engine', 'handlebars');
 
-app.engine('handlebars', handlebars({
-  layoutsDir: `$(_dirname)/views/layouts`
+app.engine('hbs', handlebars({
+  layoutsDir: `${__dirname}/views/layouts`,
+  extname: 'hbs'
 }));
 
 app.use(express.static('public'));
@@ -18,8 +19,6 @@ app.use(express.static('public'));
 app.get('/', (req, res) =>{
   res.render('main', {layout: 'index'});
 })
-
-app.set('view engine', 'handlebars');
 
 app.use('/', routes);
 
