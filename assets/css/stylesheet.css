@@ -52,3 +52,21 @@
 .block:not(:last-child) {
     margin-bottom: 10rem;
   }
+
+
+  .card{
+        width: auto;
+        height: auto;
+        display:flex;
+        padding:10% 0 0 0;
+        justify-content: center;
+
+      }
+      
+     .card-img {
+        width: auto;
+        height: auto        ;
+        max-width: 900px;
+        max-height: 600px;
+        padding:10% 0 0 10%;
+      }
