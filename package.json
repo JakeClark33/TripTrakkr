@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JakeClark33/TripTrakkr#readme",
   "dependencies": {
+<<<<<<< Updated upstream
     "inquirer": "^8.1.2",
     "mysql": "^2.18.1",
     "bulma-carousel": "^4.0.24",
@@ -26,5 +27,9 @@
     "inquirer": "^8.1.2",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
+=======
+    "bulma-carousel": "^4.0.24",
+    "inquirer": "^8.1.2"
+>>>>>>> Stashed changes
   }
 }
