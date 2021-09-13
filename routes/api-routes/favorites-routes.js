@@ -1,7 +1,11 @@
 // const inputCheck = require('./utils/inputCheck');
-const router = require('Router');
+const express = require('express');
+const router = express.Router();
 
-router.get('/api/landmarks', (req, res) => {
+
+
+
+router.get('/routes/api-routes/landmarks-routes', (req, res) => {
     const sql = `SELECT * FROM landmarks`;
 
     db.query(sql, (err, rows) => {
@@ -16,7 +20,8 @@ router.get('/api/landmarks', (req, res) => {
     });
 });
 
-router.post('/api/favorites', ({ body }, res) => {
+
+router.post('/routes/api-routes/favorites-routes', ({ body }, res) => {
     const errors = inputCheck(body, 'landmark');
     if (errors) {
         res.status(400).json({ error: errors});
@@ -24,7 +29,9 @@ router.post('/api/favorites', ({ body }, res) => {
     }
 });
 
+
 const sql = `INSERT INTO favorites (landmark_name, is_favorite)`;
+
 const params = [body.landmark_name, body.is_favorite];
 
 db.query(sql, params, (err, result) => {
