@@ -9,7 +9,7 @@ router.get('/api/landmarks', (req, res) => {
             return;
         }
         res.json({
-            message: 'success'
+            message: 'success',
             data: rows
         });
     });
