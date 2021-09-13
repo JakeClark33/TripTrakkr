@@ -1,5 +1,8 @@
 
 
+/* Bulma Responsive Notes*/
+
+
 .bg-img { 
     background-image: url(images/original.jpg) ;
     background-position: center center;
@@ -45,3 +48,25 @@
 .navbar-item {
     font-size: 25px;
 }
+
+.block:not(:last-child) {
+    margin-bottom: 10rem;
+  }
+
+
+  .card {
+        width: auto;
+        height: 600px;
+        display:flex;
+        padding:10% 0 0 0;
+        justify-content: center;
+
+      }
+      
+.card-image {
+    max-width: 300px;
+    max-height: auto;  
+    display:inline;
+    margin-inline-end: auto;
+   }
+

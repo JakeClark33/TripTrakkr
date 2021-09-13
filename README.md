@@ -31,15 +31,19 @@ Project is created with:
 
 ## Setup
 To run this project, visit the site deployed to Heroku at:
+https://dashboard.heroku.com/apps/triptrakkr
+
+The Github repository can be cloned at:
+https://github.com/JakeClark33/TripTrakkr.git
 
 
 
 
 ## Contributors
-Carolyn King
-JP 
-Kory Kading
-Jeff Knoespel
+Carolyn King, 
+JP, 
+Kory Kading, 
+Jeff Knoespel, 
 Jake Clark
 
 
