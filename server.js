@@ -1,28 +1,25 @@
-const routes = require('./controllers/index');
-const sequelize = require('./connection/connections');
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const port = process.env.PORT || 3001;
 
 
 const handlebars = require('express-handlebars');
-const hbs = handlebars.create({});
-app.set('view engine', 'handlebars');
+
+app.set('view engine', 'hbs');
 
 app.engine('hbs', handlebars({
   layoutsDir: `${__dirname}/views/layouts`,
-  extname: 'hbs'
+  extname: 'hbs',
+  defaultLayout: 'index',
+  partialsDir: `${__dirname}/views/partials`
 }));
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) =>{
-  res.render('main', {layout: 'index'});
+  res.render('main');
 })
 
-app.use('/', routes);
-
-sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log('Now listening'));
-  });
-  
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`);
+});
