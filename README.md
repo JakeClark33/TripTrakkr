@@ -72,4 +72,7 @@ Tab describing future trips
 
 Bulma docs and notes: 
 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
