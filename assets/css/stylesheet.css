@@ -54,20 +54,19 @@
   }
 
 
-  .card{
+  .card {
         width: auto;
-        height: auto;
+        height: 600px;
         display:flex;
         padding:10% 0 0 0;
         justify-content: center;
 
       }
       
-.card-img {
-    width: auto;
-    height: auto        ;
-    max-width: 900px;
-    max-height: 600px;
-    padding:10% 0 0 10%;
-    }
+.card-image {
+    max-width: 300px;
+    max-height: auto;  
+    display:inline;
+    margin-inline-end: auto;
+   }
 
