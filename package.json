@@ -18,6 +18,7 @@
   "homepage": "https://github.com/JakeClark33/TripTrakkr#readme",
   "dependencies": {
     "bulma-carousel": "^4.0.24",
+    "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
@@ -25,6 +26,7 @@
     "inquirer": "^8.1.2",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.0",
+    "routerjs": "^2.4.5",
     "sequelize": "^6.6.5"
   }
 }

@@ -29,18 +29,21 @@ Project is created with:
 
 
 
-<<<<<<< Updated upstream
 ## Setup
 To run this project, visit the site deployed to Heroku at:
+https://dashboard.heroku.com/apps/triptrakkr
+
+The Github repository can be cloned at:
+https://github.com/JakeClark33/TripTrakkr.git
 
 
 
 
 ## Contributors
-Carolyn King
-JP 
-Kory Kading
-Jeff Knoespel
+Carolyn King, 
+JP, 
+Kory Kading, 
+Jeff Knoespel, 
 Jake Clark
 
 
@@ -66,10 +69,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-=======
-Tab describing future trips
-
-
-Bulma docs and notes: 
-
->>>>>>> Stashed changes

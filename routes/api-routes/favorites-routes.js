@@ -1,4 +1,5 @@
-const inputCheck = require('./utils/inputCheck');
+// const inputCheck = require('./utils/inputCheck');
+const router = require('Router');
 
 router.get('/api/landmarks', (req, res) => {
     const sql = `SELECT * FROM landmarks`;
@@ -9,7 +10,7 @@ router.get('/api/landmarks', (req, res) => {
             return;
         }
         res.json({
-            message: 'success'
+            message: 'success',
             data: rows
         });
     });
@@ -57,3 +58,4 @@ router.delete('/api/favorites/:id', (req, res) => {
         }
     });
 });
+module.exports = router;
