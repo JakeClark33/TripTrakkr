@@ -10,19 +10,17 @@ burgerIcon.addEventListener('click', () => {
 
 // modal and sign-in
 
-const signinlink = document.querySelector('#signin');
+const signinbutton = document.querySelector('#signin');
 const modalBg = document.querySelector('.modal-background');
 const modal = document.querySelector('.modal');
 const modalClose = document.querySelector('.modal-close');
+const box = document.querySelector('.box');
 
-signinlink.addEventListener('click', () => { 
-    modal.classlist.add('is-active');
- })
+signinbutton.addEventListener('click', () => { 
+    modal.classList.add('is-active');
+    box.classList.remove('is-hidden');
 
-signinlink.addEventListener('click',() => {
-    modal.classList.remove('is-active');
-    box.classList.add('is-hidden');
-})
+ });
 
 modalClose.addEventListener('click', ()=> {
     modal.classList.remove('is-active');
