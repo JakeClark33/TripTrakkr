@@ -60,9 +60,9 @@ app.engine('hbs', handlebars({
 app.use(express.static('views'));
 app.use(cookieParser());
 
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+// app.use(function(req, res, next) {
+//   next(createError(404));
+// });
 
 app.get('/', (req, res) =>{
   res.render('main');
