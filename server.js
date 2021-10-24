@@ -34,7 +34,7 @@ const db = require('./db/connection');
 //     });
 // });
 const app = express();
-const port = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001;
 const cookieParser = require('cookie-parser');
 const path = require('path');
 // const indexRouter = require('./routes/api-routes/favorites-routes')
