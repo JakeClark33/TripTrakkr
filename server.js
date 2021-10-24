@@ -67,8 +67,8 @@ app.get('/', (req, res) =>{
   res.render('main');
 })
 
-app.listen(port, () => {
-  console.log(`App listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`App listening on port ${PORT}`);
 });
 
 // error handler
